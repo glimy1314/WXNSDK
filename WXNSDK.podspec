@@ -8,4 +8,5 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.source_files = "WXNSDK/**/*.swift", "WXNSDK/**/*.h"
   spec.source       = { :git => "https://github.com/glimy1314/WXNSDK.git", :tag => "#{spec.version}" }
+  spec.swift_version = "5.0"
 end

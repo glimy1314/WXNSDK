@@ -8,11 +8,11 @@
 import Foundation
 
 public class Say {
-    public func startSay() {
-        print("sayhello")
+    public func sayHello() {
+        print("say hello")
     }
     
-    private func endSay() {
-        print("sayBye")
+    private func saySorry() {
+        print("say sorry")
     }
 }
