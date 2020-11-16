@@ -6,8 +6,6 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/glimy1314/WXNSDK"
   spec.author             = { "guoliang" => "guoliang@baiing.cn" }
   spec.platform     = :ios, "9.0"
-
+  spec.source_files = "WXN/**/*.swift", "WXN/**/*.h"
   spec.source       = { :git => "https://github.com/glimy1314/WXNSDK.git", :tag => "#{spec.version}" }
-
-  spec.vendored_frameworks = "Products/**/*.{framework}"
 end
